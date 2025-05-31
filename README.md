@@ -7,8 +7,6 @@ A Node.js-based Task Manager API that allows users to create, view, and manage t
 - **Task Management**: Create, view, update, and delete tasks.
 - **Authentication and Authorization**: Protected routes with role-based access.
 
----
-
 
 ## API Endpoints
 
