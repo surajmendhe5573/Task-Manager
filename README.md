@@ -17,7 +17,11 @@ A Node.js-based Task Manager API that allows users to create, view, and manage t
 | Method | Endpoint            | Description                  | Authentication |
 |--------|---------------------|------------------------------|----------------|
 | POST   | `/api/auth/register` | Register a new user          | No             |
-| POST   | `/api/auth/login`    | Login user and get JWT token | No             |
+| POST   | `/api/auth/login`    | Login user and get JWT token | No            |
+| GET    | `/api/users`    | Get all users (Admin only)                  | Yes            |
+| GET    | `/api/users/me` | Get current user details                    | Yes            |
+| PUT    | `/api/users/:id`| Update user profile (Admin: any, User: own) | Yes            |
+| DELETE | `/api/users/:id`| Delete user profile (Admin: any, User: own) | Yes            |
 
 ### Task Routes
 
