@@ -7,31 +7,8 @@ A Node.js-based Task Manager API that allows users to create, view, and manage t
 - **Task Management**: Create, view, update, and delete tasks.
 - **Authentication and Authorization**: Protected routes with role-based access.
 
-## Tech Stack
-- **Node.js**: Backend runtime
-- **Express.js**: Web framework
-- **MongoDB**: Database
-- **JWT**: Authentication
-- **Mongoose**: ODM for MongoDB
-
 ---
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/task-manager-api.git
-
-
-## Features
-
-- User Registration and Login with JWT-based authentication
-- CRUD operations for books
-- Add, update, and delete reviews
-- Search and filter books by title, author, or genre
-- Pagination for book listings
-- Password hashing with `bcrypt`
-- Input validation
 
 ## API Endpoints
 
@@ -58,7 +35,7 @@ A Node.js-based Task Manager API that allows users to create, view, and manage t
 1. Clone the repository:
    ```bash
    git clone <https://github.com/surajmendhe5573/Task-Manager.git>
-   cd <Book-Review-API>
+   cd <task manager>
 
 
 ## Getting Started
