@@ -100,7 +100,7 @@ const updateUser= async(req, res)=>{
         }
 
         if(req.user.role !== 'Admin' && req.user.id !== id){
-            return res.status(403).json({message: 'Access denied. You can update you own profile'});
+            return res.status(403).json({message: 'Access denied. You can update your own profile'});
         }
 
         const updates= {};
@@ -109,7 +109,7 @@ const updateUser= async(req, res)=>{
         if(email){
             const userExist= await User.findOne({email});
             if(userExist && userExist._id != id){
-                return res.status(409).json({message: 'This email ia already taken by another user'});
+                return res.status(409).json({message: 'This email is already taken by another user'});
             }
             updates.email= email;
         }
