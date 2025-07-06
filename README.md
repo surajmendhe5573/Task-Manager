@@ -1,4 +1,4 @@
-# Task Manager APIs
+# Task Manager APIs.
 
 A Node.js-based Task Manager API that allows users to create, view, and manage tasks with role-based access control. Admin users can manage all tasks, while regular users can only manage their own.
 
